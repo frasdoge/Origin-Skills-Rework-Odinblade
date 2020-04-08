@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="6" build="0" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="5a86542b-bd45-4b52-a848-f22ddc598afd" type="23" />
+            <attribute id="Name" value="OriginSkillsReworkOdinblade" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="f6811b88-4732-42db-a2c9-f3d1cf08e936" type="23" />
+        </node>
+    </region>
+</save>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="BreakTheShacklesOSR" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="ActionPoints" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Cooldown" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="AreaRadius" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="AddWeaponRange" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="TargetConditions" type="StringStatObjectFieldDefinition" value="Self|Ally" />
+        <field name="UseCharacterStats" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Autocast" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Origins_BreakTheShackles" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Break The Shackles" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Break free from nearly all negative statuses. Nearby allies will also receive this effect.&lt;br&gt;&lt;br&gt;Excludes Knocked Down, Frozen, Petrified, Stunned, Sleeping, Taunted, Chicken Form, Squirrel Form, Rabbit Form, Frog Form, Possessed, Charmed, Transfixed, and Terrified." />
+        <field name="FXScale" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="PrepareAnimationInit" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_start" />
+        <field name="PrepareAnimationLoop" type="StringStatObjectFieldDefinition" value="skill_prepare_shout_01_loop" />
+        <field name="PrepareEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Prepare_Shout_BreakTheShackles_Root_01,KeepRot:Dummy_Root" />
+        <field name="CastAnimation" type="StringStatObjectFieldDefinition" value="skill_cast_shout_01_cast" />
+        <field name="CastTextEvent" type="StringStatObjectFieldDefinition" value="cast" />
+        <field name="Memory Cost" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Cost" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="CleanseStatuses" type="StringStatObjectFieldDefinition" value="FIREBLOOD;NULL_RESISTANCE;DAZED;CHALLENGE;CHALLENGE_LOSS;GROUNDED;DAMAGE_ON_MOVE;BURNING;POISONED;BLEEDING;NECROFIRE;SLOWED;CRIPPLED;WEB;ENTANGLED;MUTED;DISARMED;DISEASED;SHACKLES_OF_PAIN;INFECTIOUS_DISEASED;DECAYING_TOUCH;SHOCKED;CHILLED;SUFFOCATING;ACID;INFESTED;DEAF;PLAGUE;BLIND;WEAK;ENRAGED;DEMONIC_STARE;TIME_SLOWED;OdinCORE_LOSTFOOTING;SHADE_ShadeChallenge;SHADE_BladeChallenge;SHADE_BladeChallenged_Loss;SHADE_ShadeChallenged_Loss;SHADE_Exposed1;SHADE_Peril1;SHADE_Exposed2;SHADE_Exposed3;SHADE_Peril2;SHADE_Peril3;SHADE_Fading;OdinSpectre_AGONY1;OdinSpectre_AGONY2;OdinSpectre_AGONY3;OdinSpectre_AGONY4;OdinSpectre_AGONY5;OdinSpectre_DREAD;OdinSpectre_WITHER;OdinSpectre_CURSE_VULNERABLE;OdinSpectre_CURSE_WEAKNESS;OdinSpectre_SEEDOFMALICE;OdinSpectre_PERISH;OdinSpectre_CURSE_INEPT;OdinSpectre_LAMENTED;OdinPyro_BURNING1;OdinPyro_BURNING2;OdinPyro_BURNING3;OdinPyro_BURNING4;OdinPyro_BURNING5;OdinPyro_SMOLDER;OdinPyro_SMOLDER_AURA;OdinPyro_PHOENIXIANFURY;OdinPyro_SNARED;OdinWater_HYPOTHERMIA;OdinWater_DAMPENED;OdinWater_SCALDED;OdinWater_SLOWCURRENT;OdinWater_DROWNING;OdinGEO_Oiled;OdinGEO_Spored;OdinGEO_ParasiticAffliction;OdinGEO_Corruption;OdinAERO_CONDUCTIVE;OdinAERO_HAZED;OdinAERO_GRAVITY;OdinNECRO_RUPTURE;" />
+        <field name="StatusClearChance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="CanTargetCharacters" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="CanTargetItems" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="IgnoreSilence" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
+        <field name="IsEnemySkill" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AIFlags" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="AIFlags" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Combat" />
+        <field name="HitEffect" type="StringStatObjectFieldDefinition" value="RS3_FX_Skills_Divine_Cast_Shout_BreakTheShackles_01" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
