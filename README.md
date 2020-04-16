@@ -2,9 +2,10 @@ Origin Skills Rework Odinblade Compatibility for Divinity: Original Sin 2 - Defi
 =======
 
 # Features:
+Add compatibility to Odinblade's mods to Origin Skills Rework.
 
 # Releases
-* [Steam Workshop]() 
+* [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2038169554) 
 * [Nexus]()
 
 # Attribution
